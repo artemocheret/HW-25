@@ -1,10 +1,10 @@
 .parent {
-  padding-top: 200px;
-  padding-left: 550px;
   display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
+  width: 300px;
+  height: 300px;
 }
 
 .child {
@@ -14,19 +14,22 @@
 
 .child-1 {
   background-color: rgb(225, 89, 89);
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
 .child-2 {
   background-color: rgb(83, 105, 196);
   position: absolute;
-  top: 260px;
-  right: 730px;
+  top: 100px;
+  left: 100px;
   z-index: 1;
 }
 
 .child-3 {
   background-color: rgb(125, 227, 125);
   position: absolute;
-  top: 320px;
-  right: 670px;
+  top: 150px;
+  left: 150px;
 }
